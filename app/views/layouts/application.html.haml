@@ -11,7 +11,7 @@
     .container
       .navbar-brand DinoChores
       %ul.nav.navbar-nav
-        %li= link_to "Home", root_path/homepage.html.haml
+        %li= link_to "Home", root_path
         %li= link_to "All Chores", root_path
         - Category.all.each do |category|
           %li= link_to category.name, jobs_path(category: category.name)
