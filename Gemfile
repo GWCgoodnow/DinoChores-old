@@ -38,3 +38,5 @@ gem 'simple-form-datepicker', '~> 0.1.3'
 
 #gem 'railties', '~> 4.1', '>= 4.1.8'
 gem 'railties', '~> 5.1', '>= 5.1.1'
+
+gem 'coffee-script-source', '1.8.0'

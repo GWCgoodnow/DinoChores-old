@@ -4,7 +4,8 @@
   %title DinoChores
 
 
-  = stylesheet_link_tag "application", media: "all", 'data-turbolinks-track' => true
+  = stylesheet_link_tag 'styles', media: 'all', 'data-turbolinks-track': 'reload'
+  = javascript_include_tag 'default', 'data-turbolinks-track': 'reload'
 
   = csrf_meta_tags
 
