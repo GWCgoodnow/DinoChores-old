@@ -45,10 +45,10 @@ gem 'coffee-script-source', '1.8.0'
 gem 'therubyracer', platforms: :ruby
 
 group :Development do
-  gem "sqlite3"
+#  gem "sqlite3"
 end
 
 group :production do
-#   gem 'pg'
-#   gem 'puma'
+   gem 'pg'
+   gem 'puma'
 end
