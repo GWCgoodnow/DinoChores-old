@@ -33,7 +33,7 @@ gem 'rubygems-tasks', '~> 0.2.4'
 #gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw]
 gem 'tzinfo-data', '~> 1.2017', '>= 1.2017.2'
 #gem 'simple-form-datepicker', '~> 0.1.3'
-gem 'simple-form-datepicker', '~> 0.1.3'
+#gem 'simple-form-datepicker', '~> 0.1.3'
 # gem 'rails_jquery_ui_datepicker', '~> 0.1'
 
 #gem 'railties', '~> 4.1', '>= 4.1.8'
@@ -45,7 +45,7 @@ gem 'coffee-script-source', '1.8.0'
 gem 'therubyracer', platforms: :ruby
 
 group :Development do
-  gem "sqlite3"
+#  gem "sqlite3"
 end
 
 group :production do
