@@ -16,9 +16,12 @@
 //= require turbolinks
 //= require_tree .
 
+<<<<<<< HEAD
 
 
 
 
 
 
+=======
+>>>>>>> ca4eeca54342529006be3e4355bb7e19068a3db8

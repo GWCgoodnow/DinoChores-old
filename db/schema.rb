@@ -11,7 +11,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20170516193807) do
+
 
   create_table "categories", force: true do |t|
     t.string   "name"
@@ -19,26 +19,6 @@ ActiveRecord::Schema.define(version: 20170516193807) do
     t.datetime "updated_at"
   end
 
-  create_table "chores", force: true do |t|
-    t.string   "title"
-    t.text     "description"
-    t.text     "duedate"
-    t.string   "url"
-    t.datetime "created_at"
-    t.datetime "updated_at"
-    t.integer  "category_id"
-    t.integer  "month_id"
-    t.integer  "day"
-    t.string   "monthname"
-    t.string   "status"
-    t.string   "status_where"
-  end
-
-  create_table "creates", force: true do |t|
-    t.string   "month"
-    t.datetime "created_at"
-    t.datetime "updated_at"
-  end
 
   create_table "jobs", force: true do |t|
     t.string   "title"
@@ -50,19 +30,5 @@ ActiveRecord::Schema.define(version: 20170516193807) do
     t.integer  "category_id"
   end
 
-  create_table "months", force: true do |t|
-    t.string   "name"
-    t.datetime "created_at"
-    t.datetime "updated_at"
-    t.integer  "month_id"
-    t.string   "monthname"
-  end
-
-  create_table "statuses", force: true do |t|
-    t.string   "status_where"
-    t.datetime "created_at"
-    t.datetime "updated_at"
-    t.integer  "status_id"
-  end
 
 end
