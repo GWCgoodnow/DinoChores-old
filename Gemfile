@@ -44,8 +44,8 @@ gem 'coffee-script-source', '1.8.0'
 
 gem 'therubyracer', platforms: :ruby
 
-group :Development do
-#  gem "sqlite3"
+group :development do
+  gem "sqlite3"
 end
 
 group :production do
