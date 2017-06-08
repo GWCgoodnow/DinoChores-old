@@ -1,5 +1,5 @@
 source 'https://rubygems.org'
-
+ruby '2.3.3'
 # gem 'rails', '4.1.8'
 gem 'rails', '~> 5.1', '>= 5.1.1'
 #gem 'sqlite3'
@@ -49,6 +49,7 @@ group :development do
 end
 
 group :production do
-   gem 'pg'
    gem 'puma'
+   gem 'pg', '0.15.1'
+   gem 'rails_12factor', '0.0.2'
 end
